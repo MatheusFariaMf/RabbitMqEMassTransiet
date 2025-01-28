@@ -1,0 +1,42 @@
+[
+  {
+    "ContainingType": "ProjetoRabbitMQ.Controllers.ApiEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CAddApiEndpoints\u003Eb__0_1",
+    "RelativePath": "relatorios",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ProjetoRabbitMQ.Relatorios.SolicitacaoRelatorio, ProjetoRabbitMQ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjetoRabbitMQ.Controllers.ApiEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CAddApiEndpoints\u003Eb__0_0",
+    "RelativePath": "solicitar-relatorio/{name}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
